@@ -1,0 +1,17 @@
+.main {
+    background-color: #1F2937;
+    height: 500px;
+    margin: auto;
+}
+
+.middle {
+    background-color: rgba(255, 255, 255, 0.908);
+    height: 400px;
+    margin: auto;
+}
+
+.text_area {
+    background-color: #E5E7EB;
+    height: 300px;
+    margin: auto;
+}
