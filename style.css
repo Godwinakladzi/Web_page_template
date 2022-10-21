@@ -14,4 +14,13 @@
     background-color: #E5E7EB;
     height: 300px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
 }
