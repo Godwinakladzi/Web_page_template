@@ -4,6 +4,31 @@
     margin: auto;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    color: white;
+    font-size: x-large;
+}
+
 .middle {
     background-color: rgba(255, 255, 255, 0.908);
     /*height: 400px;*/
@@ -119,4 +144,14 @@
     color: beige;
     font-weight: 36px;
     font-style: bold;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: medium;
 }
