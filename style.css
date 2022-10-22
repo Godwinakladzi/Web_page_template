@@ -89,6 +89,34 @@
     background-color: #3882F6;
     border-radius: 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call_action_section {
+    /* background-color: rgb(6, 64, 5);*/
+    text-align: left;
+    margin-left: 100px;
+}
+
+.sign_up {
+    /*background-color: #ad0606;*/
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid white;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 100px;
+    color: #E5E7EB;
+}
+
+.call {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: beige;
+    font-weight: 36px;
+    font-style: bold;
 }
