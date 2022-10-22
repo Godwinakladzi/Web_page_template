@@ -29,6 +29,43 @@ a {
     font-size: x-large;
 }
 
+#submain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#place_pic {
+    height: 200px;
+    width: 400px;
+    background-color: rgba(223, 226, 229, 0.861);
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web_info {
+    color: white;
+    font-size: large;
+    margin-left: 150px;
+    height: 400px;
+}
+
+#awesome {
+    font-size: xx-large;
+}
+
+#sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+}
+
 .middle {
     background-color: rgba(255, 255, 255, 0.908);
     /*height: 400px;*/
