@@ -46,22 +46,31 @@
 }
 
 .box {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 2px;
     margin: 20px;
-    border: 5px solid blue;
+    border: 5px solid #3882F6;
     border-radius: 25px;
 }
 
 .box_with_text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .box_session {
     display: flex;
     justify-content: center;
+}
+
+.text_below_box {
+    margin-bottom: 50px;
+    max-width: 150px;
+    text-align: center;
+    margin-left: 20px;
 }
